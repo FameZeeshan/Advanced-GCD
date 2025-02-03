@@ -1,8 +1,9 @@
-# Ignore everything
+# Ignore everything by default
 *
 
-# But not these files...
-!.gitignore
-!main4.ipynb
-!main5.ipynb
-!main6.ipynb
+# But not these files...\
+!*.ipynb
+!*.py
+
+# Allow folders (so Git can track allowed files inside them)
+!*/
